@@ -1,2 +1,6 @@
-# أضف pytest-django و coverage إلى requirements-dev.txt (ملف جديد)
-pytest-django coverage
+coverage==7.9.2
+pytest==8.4.0
+pytest-asyncio==1.0.0
+pytest-django==4.11.1
+tomli==2.2.1
+pluggy==1.6.0

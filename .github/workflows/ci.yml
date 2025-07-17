@@ -1,5 +1,4 @@
 # .github/workflows/ci_cd.yml 
-
 name: Django CI/CD
 
 on:
@@ -18,7 +17,7 @@ jobs:
     - name: Set up Python
       uses: actions/setup-python@v3
       with:
-        python-version: '3.10.7'
+        python-version: '3.11'
 
     - name: Install dependencies
       run: |
@@ -47,4 +46,4 @@ jobs:
       with:
         context: .
         push: true
-        tags: yourusername/eye2-backend:latest # استبدل باسم المستخدم الخاص بك
+        tags: yourusername/eye2-backend:latest  # غيّر yourusername إلى اسم مستخدمك في DockerHub
