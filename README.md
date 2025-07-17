@@ -6,7 +6,7 @@ This is the backend for the Eye2 medical diagnostic platform, built with Django 
 
 1.  **Clone the repository:**
     ```bash
-    git clone <your-repo-url>
+    git clone https://github.com/Magood1/eye2-ai-platform
     cd eye2_project
     ```
 
