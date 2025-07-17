@@ -1,0 +1,2 @@
+# أضف pytest-django و coverage إلى requirements-dev.txt (ملف جديد)
+pytest-django coverage

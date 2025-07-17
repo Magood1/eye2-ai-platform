@@ -1,0 +1,15 @@
+# requirements.txt
+# أساسيات Django
+django
+djangorestframework
+django-environ
+
+# المصادقة
+djangorestframework-simplejwt
+
+# الاتصال بقاعدة البيانات (سنستخدم postgres في الإنتاج)
+psycopg2-binary
+
+
+celery[redis]
+pillow

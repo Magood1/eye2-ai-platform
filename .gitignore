@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Virtual Environment
+venv/
+
+# Django
+*.sqlite3
+*.log
+.env
+.coverage
+db.sqlite3
+
+# VS Code
+.vscode/
+
+# Pytest
+.pytest_cache/
