@@ -23,8 +23,7 @@ This is the backend for the Eye2 medical diagnostic platform, built with Django 
 
 4.  **Setup environment variables:**
     ```bash
-    cp .env.example .env
-    # Edit .env with your local settings
+    cp .env .env.example
     ```
 
 5.  **Run migrations:**
@@ -37,10 +36,6 @@ This is the backend for the Eye2 medical diagnostic platform, built with Django 
     python manage.py runserver
     ```
 
-7.  **Run Celery worker (in a separate terminal):**
-    ```bash
-    celery -A eye2_project worker -l info
-    ```
 
 ## Running Tests
 
