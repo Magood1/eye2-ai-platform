@@ -31,7 +31,7 @@ CORS_ALLOWED_ORIGINS = [
 
 
 # eye2_project/settings/production.py
-# ...
+
 LOGGING = {
     'version': 1,
     'disable_existing_loggers': False,

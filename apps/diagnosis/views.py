@@ -7,6 +7,11 @@ from .tasks import process_diagnosis
 from apps.users.models import Patient
 from apps.diagnosis import serializers
 
+from django.shortcuts import render
+
+def dashboard_view(request):
+    return render(request, 'dashboard/dashboard.html')
+
 
 
 class DiagnosisViewSet(mixins.CreateModelMixin,

@@ -21,6 +21,8 @@ from rest_framework.routers import DefaultRouter
 from apps.diagnosis.views import DiagnosisViewSet
 from drf_spectacular.views import SpectacularAPIView, SpectacularSwaggerView, SpectacularRedocView
 
+from apps.diagnosis.views import dashboard_view
+
 
 router = DefaultRouter()
 router.register(r'diagnoses', DiagnosisViewSet, basename='diagnosis')
@@ -38,6 +40,14 @@ urlpatterns = [
     path('api/', include('apps.core.urls')),
 
     path('api-auth/', include('rest_framework.urls', namespace='rest_framework')),
+
+
+    path('dashm', dashboard_view, name='dashboard'),
+    
+
+
 ] 
+
+
 
 

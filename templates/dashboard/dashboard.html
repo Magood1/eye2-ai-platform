@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{% block title %}لوحة التحكم{% endblock %}
+
+{% block content %}
+    <h1 class="text-2xl font-bold text-white mb-6">لوحة التحكم</h1>
+    
+    <div class="flex flex-col gap-4">
+        {% include 'dashboard/components/control_button.html' with label="تحديد موعد" icon="calendar" %}
+        {% include 'dashboard/components/control_button.html' with label="إضافة مريض" icon="user-plus" %}
+        {% include 'dashboard/components/control_button.html' with label="سجل التشخيصات" icon="clipboard-list" %}
+        {% include 'dashboard/components/control_button.html' with label="سجل المرضى" icon="file-text" %}
+        {% include 'dashboard/components/control_button.html' with label="البيانات الطبية للمريض" icon="folder-plus" %}
+        {% include 'dashboard/components/control_button.html' with label="تحديد خطة العلاج" icon="plus-square" %}
+        {% include 'dashboard/components/control_button.html' with label="تعديل البيانات" icon="edit" %}
+        {% include 'dashboard/components/control_button.html' with label="دليل طب العيون" icon="book-open" %}
+        {% include 'dashboard/components/control_button.html' with label="اختبارات العين" icon="eye" %}
+    </div>
+{% endblock %}
